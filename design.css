@@ -373,13 +373,15 @@ form {
 	float:right;
 	vertical-align:top;
 /*	margin-left:50px; */
-	maring-top:0px;
+	margin-top:0px;
 	padding:0px 0px 0px 0px;
 }
 
 .fa {
 	padding: 15px;
 	width: 15px;
+	position:relative;
+	display:inline-block;
 	text-align: center;
 	text-decoration: none;
 	font-size:1.8vh;
