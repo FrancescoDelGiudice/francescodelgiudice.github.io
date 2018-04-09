@@ -346,8 +346,7 @@ form {
 	margin-top:2%;	
 	height:2%;
 	width:100%;
-	border-top: 2px solid #d9d9d9;
-	text-align: center;		
+	border-top: 2px solid #d9d9d9;		
 	margin-bottom: 30px;
 }
 
@@ -359,6 +358,7 @@ form {
 	position:relative;
 	display:inline-block;
 	width:80%;
+	text-align:left;
 }
 
 #social-footer {
