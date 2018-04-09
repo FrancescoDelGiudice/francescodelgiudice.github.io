@@ -356,7 +356,6 @@ form {
 	font-weight: 300;
 	color: #d9d9d9;
 	font-size: 1.8vh;
-
 	position:relative;
 	display:inline-block;
 	width:80%;
@@ -376,12 +375,14 @@ form {
 	width: 15px;
 	text-align: center;
 	text-decoration: none;
+	font-size:15px;
 }
 
 a {
 	text-decoration: none;
 	color:#fff;
 	text-align:center;
+	font-size:15px;
 }
 
 .fa-facebook:hover {
