@@ -371,7 +371,7 @@ form {
 	padding: 0px 3% 0px 0px;
 	float:right;
 	margin-left:50px;
-	font-size:1.8vh;
+	font-size:2vh;
 }
 
 .fa {
@@ -381,7 +381,6 @@ form {
 	text-decoration: none;
 	position:relative;
 	display:inline-block;
-	font-size:1.8vh;
 }
 
 a {
