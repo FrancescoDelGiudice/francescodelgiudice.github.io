@@ -371,6 +371,7 @@ form {
 	position:relative;
 	display:inline-block;
 	vertical-align:top;
+	font-size:1.8vh;
 }
 
 a {
