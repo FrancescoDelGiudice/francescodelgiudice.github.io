@@ -119,7 +119,7 @@ p {
 
 
 @media only screen and (min-width: 500px) {
-
+				/*
 					#social-footer {
 						overflow:hidden;
 						width:10%;
@@ -132,6 +132,7 @@ p {
 						vertical-align:top;
 						margin-left:50px;
 					}
+				*/
 	
 					.fa {
 						padding: 15px;
@@ -359,7 +360,7 @@ form {
 	display:inline-block;
 	width:80%;
 	text-align:left;
-	margin-left:5%;
+	margin-left:3%;
 }
 
 #social-footer {
@@ -368,11 +369,12 @@ form {
 	position:relative;
 	display:inline-block;
 	bottom:30px;
-	padding: 0px 3% 0px 0px;
+/*	padding: 0px 3% 0px 0px; */
 	float:right;
 	vertical-align:top;
-	margin-left:50px;
-	font-size:15px;
+/*	margin-left:50px; */
+	maring-top:0px;
+	padding:0px 0px 0px 0px;
 }
 
 .fa {
@@ -380,13 +382,15 @@ form {
 	width: 15px;
 	text-align: center;
 	text-decoration: none;
-	font-size:15px;
+	font-size:1.8vh;
 }
 
 a {
 	text-decoration: none;
 	color:#fff;
 	text-align:center;
+	font-family: 'Poppins', sans-serif;
+	font-weight:300;
 }
 
 .fa-facebook:hover {
