@@ -89,7 +89,7 @@ h2 {
 
 p {
 	font-size:3vh;
-	text-align:justify;
+	text-align:distribute; /*justify*/
 	color:#171a1c;
 	padding: 0px 0px 0px 0px;
 	font-family: 'Poppins', sans-serif;
@@ -98,7 +98,7 @@ p {
 
 #ita {
 	font-size:2.1vh;
-	text-align:justify;
+	text-align:distribute; /*justify*/
 	color:#171a1c;
 	opacity:0.8;
 	padding: 0px 0px 0px 0px;
