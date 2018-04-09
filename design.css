@@ -133,6 +133,17 @@ p {
 						margin-left:50px;
 					}
 	
+					.fa {
+						padding: 15px;
+						width: 15px;
+						text-align: center;
+						text-decoration: none;
+						position:relative;
+						display:inline-block;
+						vertical-align:top;
+						font-size:1.8vh;
+					}
+	
 					#box {
 						background-color: #fff;
 						width:100%;
@@ -369,7 +380,6 @@ form {
 	text-decoration: none;
 	position:relative;
 	display:inline-block;
-	vertical-align:top;
 	font-size:1.8vh;
 }
 
