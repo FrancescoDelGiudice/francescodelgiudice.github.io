@@ -364,13 +364,13 @@ form {
 }
 
 #social-footer {
-	overflow:hidden;
 	width:20%;
+	overflow:hidden;
 	position:relative;
 	display:inline-block;
 	bottom:30px;
 /*	padding: 0px 3% 0px 0px; */
-	float:right;
+/*	float:right;		 */
 	vertical-align:top;
 /*	margin-left:50px; */
 	margin-top:0px;
@@ -380,12 +380,12 @@ form {
 .fa {
 	padding: 15px;
 /*	width: 15px; */
-	position:relative;
-	display:inline-block;
 	text-align: center;
 	text-decoration: none;
-	font-size:1.8vh;
+	position:relative;
+	display:inline-block;
 	vertical-align:top;
+	font-size:1.8vh;
 }
 
 a {
