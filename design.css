@@ -1,7 +1,7 @@
 body {
   	background: #171a1c !important;
 	font-size:100%;
-	text-rendering: optimizeLegibility
+	text-rendering: optimizeLegibility;
 }
 
 .container {
