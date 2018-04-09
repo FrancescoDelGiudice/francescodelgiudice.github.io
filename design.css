@@ -358,14 +358,14 @@ form {
 	font-size: 1.8vh;
 	position:relative;
 	display:inline-block;
-	width:80%;
+	width:70%; /* 80% */
 	text-align:left;
 	margin-left:3%;
 }
 
 #social-footer {
 	overflow:hidden;
-	width:auto;
+	width:20%;
 	position:relative;
 	display:inline-block;
 	bottom:30px;
