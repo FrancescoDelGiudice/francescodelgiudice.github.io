@@ -387,13 +387,8 @@ form {
 	position:relative;
 	display:inline-block;
 
-	font-size:1.6vh;
+	font-size:1.8vh;
 }
-
-.fa-facebook {
-	top: 10px;
-}
-
 
 .footer a {
 	text-decoration: none;
