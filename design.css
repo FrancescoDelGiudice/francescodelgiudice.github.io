@@ -391,11 +391,11 @@ form {
 }
 
 .fa-facebook {
-	margin-top: 15px;
+	top: 15px;
 }
 
 .fa-linkedin {
-	margin-bottom: 15px;
+	bottom: 15px;
 }
 
 .footer a {
