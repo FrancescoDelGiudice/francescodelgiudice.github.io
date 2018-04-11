@@ -380,7 +380,7 @@ form {
 }
 
 .fa {
-	padding: 15px 0px 0px 0px; /* 15px 0px 15px 0px */
+	padding: 15px 0px 15px 0px; /* 15px 0px 15px 0px */
 	width: 90%;  /* 15px */
 	text-align: center;
 	text-decoration: none;
@@ -392,11 +392,9 @@ form {
 
 .fa-facebook {
 	top: 15px;
+	padding: 0px 0px 15px 0px;
 }
 
-.fa-linkedin {
-	bottom: 15px;
-}
 
 .footer a {
 	text-decoration: none;
