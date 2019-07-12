@@ -130,7 +130,6 @@ p {
 
 label {
   width: 80%;
-  font-size: 4vw;
   text-align: center;
   color: #333;
   font-family: "Poppins", sans-serif;
@@ -148,13 +147,13 @@ label {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   text-align: center;
-  font-size: 3vw;
+  font-size: 2vw;
   color: #171a1c;
   padding: 0px 0px 0px 0px;
 }
 
 #ita-ask {
-  font-size: 2.1vw;
+  font-size: 1.5vw;
   text-align: center;
   color: #171a1c;
   opacity: 0.8;
