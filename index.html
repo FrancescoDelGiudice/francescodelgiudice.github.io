@@ -7,6 +7,12 @@
       href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,700"
       rel="stylesheet"
     />
+    <!-- Tailwind -->
+    <link
+      href="https://unpkg.com/tailwindcss@^0.7/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- End Tailwind -->
     <!--	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <script src="animated.js"></script>
   </head>
@@ -118,16 +124,16 @@
             name="contact"
             action="https://formspree.io/fra.delgiu16@gmail.com"
           >
-            <label>Full Name:</label><br />
+            <label class="lg:text-4xl text-6xl">Full Name:</label><br />
             <input type="text" name="name" /> <br />
 
-            <label>Email:</label><br />
+            <label class="lg:text-4xl text-6xl">Email:</label><br />
             <input type="text" name="email" /> <br />
 
-            <label>Subject:</label><br />
+            <label class="lg:text-4xl text-6xl">Subject:</label><br />
             <input type="text" name="subject" /> <br />
 
-            <label>Message:</label><br />
+            <label class="lg:text-4xl text-6xl">Message:</label><br />
             <textarea name="msg"></textarea> <br />
 
             <input type="submit" id="button" value="SUBMIT" />
