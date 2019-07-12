@@ -125,7 +125,7 @@ p {
 }
 
 label {
-  font-size: 3rem;
+  font-size: 2rem;
   width: 80%;
   text-align: center;
   color: #333;
@@ -222,13 +222,14 @@ form {
   font-size: 1.8vw;
   position: relative;
   display: inline-block;
-  width: 80%;
+  width: 70%;
   text-align: left;
   margin-left: 3%;
 }
 
 #social-footer {
   width: 20%;
+  /* margin-top: 0.5em; */
   overflow: hidden;
   position: relative;
   display: flex;
@@ -243,8 +244,8 @@ form {
 }
 
 .fa {
-  padding: 0px 10px 0px 0px; /* 15px 0px 15px 0px */
-  margin-top: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   width: 100%; /* 15px */
   text-align: center;
   text-decoration: none;
@@ -288,7 +289,7 @@ form {
 
   .fa {
     /* padding-top: 15px; */
-    margin-top: 1em;
+    /* margin-top: 1em; */
     width: 100%;
     text-align: center;
     text-decoration: none;
