@@ -529,7 +529,7 @@ p {
   }
 }
 
-@media (max-width: 570px) and (max-height: 500px) {
+@media (max-width: 570px) and (max-height: 600px) {
   h3,
   .typo {
     font-size: 0.2rem;
