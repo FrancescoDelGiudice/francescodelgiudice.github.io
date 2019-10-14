@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'Druk Text Wide';
-  src: url('fonts/DrukTextWide-Super.eot');
-  src: url('fonts/DrukTextWide-Super.eot?iefix') format('embedded-opentype'),
-    url('fonts/DrukTextWide-Super.woff2') format('woff2'),
-    url('fonts/DrukTextWide-Super.woff') format('woff'),
-    url('fonts/DrukTextWide-Super.otf') format('opentype'),
-    url('fonts/DrukTextWide-Super.tff') format('truetype'),
-    url('fonts/DrukTextWide-Super.svg#svgFontName') format('svg');
+  src: url('fonts/DrukTextWide-Bold.eot');
+  src: url('fonts/DrukTextWide-Bold.eot?iefix') format('embedded-opentype'),
+    url('fonts/DrukTextWide-Bold.woff2') format('woff2'),
+    url('fonts/DrukTextWide-Bold.woff') format('woff'),
+    url('fonts/DrukTextWide-Bold.otf') format('opentype'),
+    url('fonts/DrukTextWide-Bold.tff') format('truetype'),
+    url('fonts/DrukTextWide-Bold.svg#svgFontName') format('svg');
 }
 
 * {
