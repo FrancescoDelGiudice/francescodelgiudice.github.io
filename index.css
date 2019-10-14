@@ -1,9 +1,11 @@
 @font-face {
-  font-family: 'Harabara Bold';
-  src: url('fonts/Harabara.eot');
-  src: url('fonts/Harabara.woff') format('woff'),
+  font-family: 'Druk Text Wide';
+  src: url('fonts/Druk Text Wide.eot');
+  src: url('fonts/Druk Text Wide.woff') format('woff'),
+    url('fonts/Druk Text Wide.woff2') format('woff2'),
     url('fonts/DrukText.otf') format('opentype'),
-    url('fonts/Harabara.svg#filename') format('svg');
+    url('fonts/Druk Text Wide.tff') format('truetype'),
+    url('fonts/Druk Text Wide.svg#svgFontName') format('svg');
 }
 
 * {
