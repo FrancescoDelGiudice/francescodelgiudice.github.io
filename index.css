@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Druk Text Wide';
-  src: url('fonts/DrukTextWide-Bold.eot');
+  src: url('fonts/DrukTextWide-Bold.otf');
   src: url('fonts/DrukTextWide-Bold.eot?iefix') format('embedded-opentype'),
     url('fonts/DrukTextWide-Bold.woff2') format('woff2'),
     url('fonts/DrukTextWide-Bold.woff') format('woff'),
@@ -525,11 +525,62 @@ p {
 
 @media screen and (max-width: 320px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 
-@media screen and (max-width: 500px) and (max-height: 600px) {
+@media screen and (max-width: 570px) and (max-height: 500px) {
+  h3,
+  .typo {
+    font-size: 0.2rem;
+  }
+
+  .scroll-strong .scroll-label {
+    font-size: 0.2rem;
+    margin-right: -15px;
+  }
+
+  .scroll-line {
+    width: 2px;
+    overflow: hidden;
+    bottom: 0;
+    height: 40px;
+    margin: 0 auto;
+    pointer-events: none;
+  }
+
+  .scroll-line:after {
+    width: 100%;
+    height: 100%;
+    display: block;
+    content: '';
+    background: linear-gradient(
+      to bottom,
+      rgba(23, 26, 28, 1) 50%,
+      rgba(255, 255, 255, 0) 50%
+    );
+    background-position: 0 -40px;
+    background-size: 100% 200%;
+    animation: scrolldown 2.2s cubic-bezier(0.76, 0, 0.3, 1) forwards infinite;
+  }
+
+  @keyframes scrolldown {
+    0% {
+      background-position: 0 -40px;
+    }
+    75% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 0 40px;
+    }
+  }
+
+  .big-link,
+  .big-link-base {
+    font-size: 0.8rem;
+  }
+
   p {
     font-size: 1rem;
     line-height: 1.5rem;
