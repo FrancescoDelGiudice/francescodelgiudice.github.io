@@ -184,7 +184,7 @@ body {
   opacity: 0.5;
   cursor: pointer;
   position: relative;
-  bottom: 4rem;
+  bottom: 4vw;
   display: inline-block;
   z-index: 25;
 }
