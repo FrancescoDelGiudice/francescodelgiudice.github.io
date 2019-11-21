@@ -202,14 +202,14 @@ body {
 /****************/
 
 h1 {
-  font-size: 7rem;
+  font-size: 7vw;
   text-transform: uppercase;
   margin: 0;
   z-index: 0;
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1.3vw;
   margin: 0;
   z-index: 30;
 }
@@ -219,23 +219,23 @@ a {
 }
 
 .typo {
-  font-size: 0.7rem;
+  font-size: 1.1vw;
 }
 
 p {
   font-family: 'Druk Text Wide', sans-serif;
   font-weight: normal;
-  font-size: 2.5rem;
+  font-size: 2.5vw;
   text-align: left;
-  line-height: 3rem;
+  line-height: 3vw;
   margin-bottom: 0;
 }
 
 .big-link {
-  font-size: 4rem;
+  font-size: 4vw;
 }
 .big-link-base {
-  font-size: 4rem;
+  font-size: 4vw;
 }
 
 .after::after,
@@ -299,7 +299,7 @@ p {
 }
 
 .scroll-down .scroll-label {
-  font-size: 0.7rem;
+  font-size: 0.7vw;
   margin-right: -22px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -344,16 +344,17 @@ p {
 }
 
 @media screen and (max-width: 1600px) {
+  /* big screen */
   .header .name {
     width: 15%;
   }
 
   .header .line {
-    width: 78%;
+    width: 75%;
   }
 
   .header .typo {
-    width: 7%;
+    width: 10%;
   }
 
   .three {
@@ -363,14 +364,14 @@ p {
     align-items: center;
   }
 
-  .big-link-base {
+  /* .big-link-base {
     font-size: 3rem;
     bottom: 3rem;
   }
 
   .big-link {
     font-size: 3rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 1200px) {
@@ -389,7 +390,7 @@ p {
     align-items: center;
   }
 
-  h1 {
+  /* h1 {
     font-size: 5rem;
   }
 
@@ -410,12 +411,16 @@ p {
   p {
     font-size: 2rem;
     line-height: 2.5rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 950px) {
-  h1 {
+  /* h1 {
     font-size: 4rem;
+  } */
+
+  .scroll-down .scroll-label {
+    font-size: 1.2vw;
   }
 
   .two {
@@ -435,13 +440,13 @@ p {
 
   .big-link {
     clip-path: inset(0 0% 0 0);
-    font-size: 2rem;
+    /* font-size: 2rem; */
   }
 
-  h3,
+  /* h3,
   .typo {
     font-size: 0.6rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 780px) {
@@ -456,7 +461,7 @@ p {
   .header .typo {
     width: 11%;
   }
-
+  /* 
   h1 {
     font-size: 3rem;
   }
@@ -473,7 +478,7 @@ p {
 
   .big-link {
     font-size: 2rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 500px) {
@@ -497,6 +502,34 @@ p {
     width: 20%;
   }
 
+  h3 {
+    font-size: 2.3vw;
+    margin: 0;
+    z-index: 30;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .typo {
+    font-size: 2.2vw;
+  }
+
+  p {
+    font-family: 'Druk Text Wide', sans-serif;
+    font-weight: normal;
+    font-size: 5vw;
+    text-align: left;
+    line-height: 6vw;
+    margin-bottom: 0;
+  }
+
+  .scroll-strong .scroll-label {
+    font-size: 2.5vw;
+  }
+
+  /* 
   .big-link,
   .big-link-base {
     font-size: 1rem;
@@ -514,11 +547,11 @@ p {
   p {
     font-size: 1.5rem;
     line-height: 1.5rem;
-  }
+  } */
 }
 
-@media screen and (max-width: 375px) {
-  h1 {
+@media screen and (max-width: 300px) {
+  /* h1 {
     font-size: 2rem;
   }
   h3,
@@ -532,25 +565,25 @@ p {
   p {
     font-size: 1rem;
     line-height: 1.3rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 320px) {
-  h1 {
+  /* h1 {
     font-size: 1.3rem;
-  }
+  } */
 }
 
 @media (max-width: 570px) and (max-height: 500px) {
-  h3,
+  /* h3,
   .typo {
     font-size: 0.2rem;
-  }
+  } */
 
-  .scroll-strong .scroll-label {
+  /* .scroll-strong .scroll-label {
     font-size: 0.2rem;
     margin-right: -15px;
-  }
+  } */
 
   .scroll-line {
     width: 2px;
@@ -588,7 +621,7 @@ p {
     }
   }
 
-  .big-link,
+  /* .big-link,
   .big-link-base {
     font-size: 0.8rem;
   }
@@ -596,5 +629,5 @@ p {
   p {
     font-size: 1rem;
     line-height: 1.5rem;
-  }
+  } */
 }
