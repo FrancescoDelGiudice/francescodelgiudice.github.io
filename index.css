@@ -53,14 +53,14 @@ body {
 }
 
 .header .line {
-  width: 85%;
-  margin-top: 2px;
+  width: 82%;
+  margin-top: 1px;
   height: 2px;
   background-color: rgb(23, 26, 28);
 }
 
 .header .typo {
-  width: 5%;
+  width: 3%;
   text-align: right;
 }
 /* .header .line::before {
@@ -350,11 +350,11 @@ p {
   }
 
   .header .line {
-    width: 75%;
+    width: 80%;
   }
 
   .header .typo {
-    width: 10%;
+    width: 5%;
   }
 
   .three {
@@ -375,12 +375,15 @@ p {
 }
 
 @media screen and (max-width: 1200px) {
+  .header .name {
+    width: 15%;
+  }
   .header .line {
-    width: 75%;
+    width: 78%;
   }
 
   .header .typo {
-    width: 10%;
+    width: 7%;
   }
 
   .three {
@@ -455,11 +458,11 @@ p {
   }
 
   .header .line {
-    width: 74%;
+    width: 77%;
   }
 
   .header .typo {
-    width: 11%;
+    width: 8%;
   }
   /* 
   h1 {
@@ -495,11 +498,11 @@ p {
   }
 
   .header .line {
-    width: 52%;
+    width: 57%;
   }
 
   .header .typo {
-    width: 20%;
+    width: 15%;
   }
 
   h3 {
