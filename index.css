@@ -28,7 +28,7 @@ body {
 
 .container {
   /* background-color: rgb(23, 26, 28); */
-  background: #fafafa;
+  background: #fad4b3;
   height: 100%;
   width: 100%;
   min-height: 100%;
@@ -49,11 +49,11 @@ body {
 }
 
 .header .name {
-  width: 10%;
+  width: 12%;
 }
 
 .header .line {
-  width: 82%;
+  width: 85%;
   margin-top: 1px;
   height: 2px;
   background-color: rgb(23, 26, 28);
@@ -94,10 +94,10 @@ body {
   ); */
   background-image: linear-gradient(
     to bottom,
-    #fafafa 0%,
+    #fad4b3 0%,
     #fafafa00 20%,
     #fafafa00 80%,
-    #fafafa 100%
+    #fad4b3 100%
   );
   z-index: 25;
 }
@@ -197,6 +197,11 @@ body {
   clip-path: inset(0 0% 0 0);
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
 /****************/
 /*  TYPOGRAPHY  */
 /****************/
@@ -209,7 +214,7 @@ h1 {
 }
 
 h3 {
-  font-size: 1.3vw;
+  font-size: 1vw;
   margin: 0;
   z-index: 30;
 }
@@ -219,7 +224,7 @@ a {
 }
 
 .typo {
-  font-size: 1.1vw;
+  font-size: 0.65rem;
 }
 
 p {
@@ -346,15 +351,15 @@ p {
 @media screen and (max-width: 1600px) {
   /* big screen */
   .header .name {
-    width: 15%;
+    width: 12%;
   }
 
   .header .line {
-    width: 80%;
+    width: 85%;
   }
 
   .header .typo {
-    width: 5%;
+    width: 3%;
   }
 
   .three {
@@ -516,7 +521,7 @@ p {
   }
 
   .typo {
-    font-size: 2.2vw;
+    font-size: 1.5vw;
   }
 
   p {
