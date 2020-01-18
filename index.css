@@ -1,28 +1,28 @@
 @font-face {
-  font-family: 'maison-neue-black';
-  src: url('fonts/MaisonNeue-Black.otf');
-  src: url('fonts/MaisonNeue-Black.eot') format('embedded-opentype'),
-    url('fonts/MaisonNeue-Black.woff2') format('woff2'),
-    url('fonts/MaisonNeue-Black.woff') format('woff'),
-    url('fonts/MaisonNeue-Black.otf') format('opentype'),
-    url('fonts/MaisonNeue-Black.ttf') format('truetype'),
-    url('fonts/MaisonNeue-Black.svg') format('svg');
+  font-family: 'helvetica neue';
+  src: url('fonts/HelveticaNeueMedium.eot');
+  src: url('fonts/HelveticaNeueMedium.eot') format('embedded-opentype'),
+    url('fonts/HelveticaNeueMedium.woff2') format('woff2'),
+    url('fonts/HelveticaNeueMedium.woff') format('woff'),
+    url('fonts/HelveticaNeueMedium.otf') format('opentype'),
+    url('fonts/HelveticaNeueMedium.ttf') format('truetype'),
+    url('fonts/HelveticaNeueMedium.svg') format('svg');
 }
 
 @font-face {
-  font-family: 'maison-neue-bold';
-  src: url('fonts/MaisonNeue-Bold.otf');
-  src: url('fonts/MaisonNeue-Bold.eot') format('embedded-opentype'),
-    url('fonts/MaisonNeue-Bold.woff2') format('woff2'),
-    url('fonts/MaisonNeue-Bold.woff') format('woff'),
-    url('fonts/MaisonNeue-Bold.otf') format('opentype'),
-    url('fonts/MaisonNeue-Bold.ttf') format('truetype'),
-    url('fonts/MaisonNeue-Bold.svg') format('svg');
+  font-family: 'helvetica-neue-bold';
+  src: url('fonts/HelveticaNeueBold.eot');
+  src: url('fonts/HelveticaNeueBold.eot') format('embedded-opentype'),
+    url('fonts/HelveticaNeueBold.woff2') format('woff2'),
+    url('fonts/HelveticaNeueBold.woff') format('woff'),
+    url('fonts/HelveticaNeueBold.otf') format('opentype'),
+    url('fonts/HelveticaNeueBold.ttf') format('truetype'),
+    url('fonts/HelveticaNeueBold.svg') format('svg');
 }
 
 * {
-  font-family: 'maison-neue-bold', sans-serif;
-  font-weight: 800;
+  font-family: 'helvetica-neue', "Helvetica Neue", sans-serif;
+  font-weight: 600;
   /* color: rgb(23, 26, 28); */
   color:white
 }
@@ -139,8 +139,8 @@ body {
   background-image: linear-gradient(
     to bottom,
     #1A191B 0%,
-    #fafafa00 20%,
-    #fafafa00 80%,
+    #1A191B00 20%,
+    #1A191B00 80%,
     #1A191B 100%
   );
   z-index: 25;
@@ -272,11 +272,11 @@ h1 {
   text-transform: uppercase;
   margin: 0;
   z-index: 0;
-  font-family: 'maison-neue-bold', sans-serif;
+  font-family: 'helvetica-neue-bold','Helvetica Neue', sans-serif;
 }
 
 h3 {
-  font-size: 2vw;
+  font-size: 1.8vw;
   line-height: 2vw;
   margin: 0;
   z-index: 30;
@@ -291,7 +291,7 @@ a {
 }
 
 p {
-  font-family: 'maison-neue-bold', sans-serif;
+  font-family: 'helvetica-neue', sans-serif;
   font-weight: normal;
   font-size: 2.5vw;
   text-align: left;
@@ -375,7 +375,7 @@ p {
 
 .scroll-down .scroll-label {
   font-size: 0.8vw;
-  font-family: 'maison-neue-bold', sans-serif;
+  font-family: 'helvetica-neue', sans-serif;
   margin-right: 0px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -612,7 +612,7 @@ p {
   }
 
   p {
-    font-family: 'maison-neue-bold', sans-serif;
+    font-family: 'helvetica-neue', 'Helvetica Neue', sans-serif;
     font-size: 5vw;
     text-align: left;
     line-height: 7.5vw;
