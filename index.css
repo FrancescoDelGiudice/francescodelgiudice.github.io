@@ -604,11 +604,11 @@ p {
   }
 
   .typo {
-    font-size: 2.5vw;
+    font-size: 2.7vw;
   }
 
   .small-line.bottom {
-    width:1rem;
+    display:none
   }
 
   p {
@@ -626,6 +626,20 @@ p {
   .big-link,
   .big-link-base {
     font-size: 5vw;
+  }
+
+  .icon {
+    width:20px;
+    height:20px;
+    transform: translateY(-25%);
+    filter: invert(100%);
+  }
+  
+  .mail-icon {
+    width:15px;
+    height:10px;
+    filter: invert(100%);
+  
   }
 
   /*
