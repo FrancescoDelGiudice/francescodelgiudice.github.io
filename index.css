@@ -596,6 +596,7 @@ p {
     line-height:3vw;
     margin: 0;
     z-index: 30;
+    letter-spacing: 0.02rem;
   }
 
   a {
