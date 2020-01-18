@@ -276,8 +276,8 @@ h1 {
 }
 
 h3 {
-  font-size: 1.8vw;
-  line-height: 2vw;
+  font-size: 1vw;
+  line-height: 1vw;
   margin: 0;
   z-index: 30;
 }
@@ -287,7 +287,7 @@ a {
 }
 
 .typo {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 p {
