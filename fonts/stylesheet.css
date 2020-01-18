@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('MaisonNeue-DemiBold.eot');
+    src: url('MaisonNeue-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('MaisonNeue-DemiBold.woff2') format('woff2'),
+        url('MaisonNeue-DemiBold.woff') format('woff'),
+        url('MaisonNeue-DemiBold.ttf') format('truetype'),
+        url('MaisonNeue-DemiBold.svg#MaisonNeue-DemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+

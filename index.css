@@ -1,18 +1,30 @@
 @font-face {
-  font-family: 'Druk Text Wide';
-  src: url('fonts/DrukTextWide-Bold.otf');
-  src: url('fonts/DrukTextWide-Bold.eot?iefix') format('embedded-opentype'),
-    url('fonts/DrukTextWide-Bold.woff2') format('woff2'),
-    url('fonts/DrukTextWide-Bold.woff') format('woff'),
-    url('fonts/DrukTextWide-Bold.otf') format('opentype'),
-    url('fonts/DrukTextWide-Bold.tff') format('truetype'),
-    url('fonts/DrukTextWide-Bold.svg#svgFontName') format('svg');
+  font-family: 'maison-neue-black';
+  src: url('fonts/MaisonNeue-Black.otf');
+  src: url('fonts/MaisonNeue-Black.eot') format('embedded-opentype'),
+    url('fonts/MaisonNeue-Black.woff2') format('woff2'),
+    url('fonts/MaisonNeue-Black.woff') format('woff'),
+    url('fonts/MaisonNeue-Black.otf') format('opentype'),
+    url('fonts/MaisonNeue-Black.ttf') format('truetype'),
+    url('fonts/MaisonNeue-Black.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'maison-neue-bold';
+  src: url('fonts/MaisonNeue-Bold.otf');
+  src: url('fonts/MaisonNeue-Bold.eot') format('embedded-opentype'),
+    url('fonts/MaisonNeue-Bold.woff2') format('woff2'),
+    url('fonts/MaisonNeue-Bold.woff') format('woff'),
+    url('fonts/MaisonNeue-Bold.otf') format('opentype'),
+    url('fonts/MaisonNeue-Bold.ttf') format('truetype'),
+    url('fonts/MaisonNeue-Bold.svg') format('svg');
 }
 
 * {
-  font-family: 'Druk Text Wide', sans-serif;
+  font-family: 'maison-neue-bold', sans-serif;
   font-weight: 800;
-  color: rgb(23, 26, 28);
+  /* color: rgb(23, 26, 28); */
+  color:white
 }
 
 html {
@@ -20,6 +32,7 @@ html {
   height: 100vh;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
+  background: #1A191B; 
 }
 
 body {
@@ -27,8 +40,9 @@ body {
 }
 
 .container {
+  background:  #1A191B;
   /* background-color: rgb(23, 26, 28); */
-  background: #fad4b3;
+  /* background: #fad4b3; */
   height: 100%;
   width: 100%;
   min-height: 100%;
@@ -46,22 +60,45 @@ body {
   width: 90%;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .header .name {
-  width: 12%;
+  width: 15%;
 }
 
 .header .line {
-  width: 85%;
+  width: 50%;
   margin-top: 1px;
   height: 2px;
-  background-color: rgb(23, 26, 28);
+  /* background-color: rgb(23, 26, 28); */
+  background: white;
+  display:none;
 }
 
 .header .typo {
-  width: 3%;
+  width: 35%;
   text-align: right;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.typo .small-line {
+  width:4rem;
+  /* border-top:1px solid black; */
+  border-top:1px solid white;
+}
+
+.typo .small-line.bottom {
+  /* border-bottom:1px solid black; */
+  border-bottom:1px solid white;
+  border-top:0;
+  transform: translateY(-50%)
+}
+
+.typo {
+  display:flex;
 }
 /* .header .line::before {
   content: '';
@@ -92,12 +129,19 @@ body {
     rgba(23, 26, 28, 0) 70%,
     rgba(23, 26, 28, 1) 100%
   ); */
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom,
     #fad4b3 0%,
     #fafafa00 20%,
     #fafafa00 80%,
     #fad4b3 100%
+  ); */
+  background-image: linear-gradient(
+    to bottom,
+    #1A191B 0%,
+    #fafafa00 20%,
+    #fafafa00 80%,
+    #1A191B 100%
   );
   z-index: 25;
 }
@@ -136,7 +180,22 @@ body {
   width: 88vw;
   height: 100vh;
   z-index: 20;
-  background-color: rgb(23, 26, 17);
+  /* background-color: rgb(23, 26, 17); */
+  background-color: #1A191B;
+}
+
+.icon {
+  width:25px;
+  height:25px;
+  transform: translateY(-25%);
+  filter: invert(100%);
+}
+
+.mail-icon {
+  width:20px;
+  height:15px;
+  filter: invert(100%);
+
 }
 
 /************/
@@ -168,7 +227,8 @@ body {
 }
 
 .big-link {
-  color: rgb(23, 26, 28);
+  /* color: rgb(23, 26, 28); */
+  color: white;
   position: relative;
   cursor: pointer;
   margin: auto;
@@ -208,13 +268,16 @@ body {
 
 h1 {
   font-size: 7vw;
+  font-weight: 900;
   text-transform: uppercase;
   margin: 0;
   z-index: 0;
+  font-family: 'maison-neue-bold', sans-serif;
 }
 
 h3 {
-  font-size: 1vw;
+  font-size: 2vw;
+  line-height: 2vw;
   margin: 0;
   z-index: 30;
 }
@@ -224,11 +287,11 @@ a {
 }
 
 .typo {
-  font-size: 0.65rem;
+  font-size: 0.7rem;
 }
 
 p {
-  font-family: 'Druk Text Wide', sans-serif;
+  font-family: 'maison-neue-bold', sans-serif;
   font-weight: normal;
   font-size: 2.5vw;
   text-align: left;
@@ -239,8 +302,10 @@ p {
 .big-link {
   font-size: 4vw;
 }
+
 .big-link-base {
   font-size: 4vw;
+  margin-top:-11px;
 }
 
 .after::after,
@@ -268,16 +333,21 @@ p {
   background: transparent;
 }
 
+
+
 @media screen and (max-width: 950px) {
   .after:hover .after::after {
     transition: width 0.8s;
     width: 0;
-    background: rgb(23, 26, 17);
+    /* background: rgb(23, 26, 17); */
+    background: #1A191B; 
   }
   .after:hover .after::before {
     transition: width 0.8s 0.3s;
     width: 0;
-    background: rgb(23, 26, 17);
+    /* background: rgb(23, 26, 17); */
+    background: #1A191B; 
+
   }
 }
 
@@ -304,11 +374,13 @@ p {
 }
 
 .scroll-down .scroll-label {
-  font-size: 0.7vw;
-  margin-right: -22px;
+  font-size: 0.8vw;
+  font-family: 'maison-neue-bold', sans-serif;
+  margin-right: 0px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: rgb(23, 26, 28);
+  /* color: rgb(23, 26, 28); */
+  color: white;
   transform: rotate(-90deg);
 }
 
@@ -316,7 +388,7 @@ p {
   width: 2px;
   overflow: hidden;
   bottom: 0;
-  height: 72px;
+  height: 100px; /* 72px */
   margin: 0 auto;
   pointer-events: none;
 }
@@ -326,44 +398,49 @@ p {
   height: 100%;
   display: block;
   content: '';
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom,
     rgba(23, 26, 28, 1) 50%,
     rgba(255, 255, 255, 0) 50%
+  ); */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0) 50%
   );
-  background-position: 0 -72px;
+  background-position: 0 -100px; /* 0 -72 */
   background-size: 100% 200%;
   animation: scrolldown 2.2s cubic-bezier(0.76, 0, 0.3, 1) forwards infinite;
 }
 
 @keyframes scrolldown {
   0% {
-    background-position: 0 -72px;
+    background-position: 0 -100px; /* 0 -72 */
   }
   75% {
     background-position: 0 0;
   }
   100% {
-    background-position: 0 72px;
+    background-position: 0 100px; /* 0 -72 */
   }
 }
 
 @media screen and (max-width: 1600px) {
   /* big screen */
   .header .name {
-    width: 12%;
+    width: 20%;
   }
 
   .header .line {
-    width: 85%;
+    width: 50%;
   }
 
   .header .typo {
-    width: 3%;
+    width: 30%;
   }
 
   .three {
-    min-height: 100vh;
+    min-height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -381,18 +458,18 @@ p {
 
 @media screen and (max-width: 1200px) {
   .header .name {
-    width: 15%;
+    width: 20%;
   }
   .header .line {
-    width: 78%;
+    width: 50%;
   }
 
   .header .typo {
-    width: 7%;
+    width: 30%;
   }
 
   .three {
-    min-height: 100vh;
+    min-height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -436,7 +513,7 @@ p {
   }
 
   .three {
-    min-height: 100vh;
+    min-height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -463,11 +540,11 @@ p {
   }
 
   .header .line {
-    width: 77%;
+    width: 50%;
   }
 
   .header .typo {
-    width: 8%;
+    width: 30%;
   }
   /* 
   h1 {
@@ -499,19 +576,24 @@ p {
   }
 
   .header .name {
-    width: 28%;
+    width: 45%;
   }
 
   .header .line {
-    width: 57%;
+    width: 0%;
   }
 
   .header .typo {
-    width: 15%;
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 10vw;
   }
 
   h3 {
-    font-size: 2.3vw;
+    font-size: 3vw;
+    line-height:3vw;
     margin: 0;
     z-index: 30;
   }
@@ -521,28 +603,31 @@ p {
   }
 
   .typo {
-    font-size: 1.5vw;
+    font-size: 2.5vw;
+  }
+
+  .small-line.bottom {
+    width:1rem;
   }
 
   p {
-    font-family: 'Druk Text Wide', sans-serif;
-    font-weight: normal;
+    font-family: 'maison-neue-bold', sans-serif;
     font-size: 5vw;
     text-align: left;
-    line-height: 6vw;
+    line-height: 7.5vw;
     margin-bottom: 0;
   }
 
   .scroll-strong .scroll-label {
     font-size: 2.5vw;
   }
-
-  /* 
+ 
   .big-link,
   .big-link-base {
-    font-size: 1rem;
+    font-size: 5vw;
   }
 
+  /*
   h1 {
     font-size: 2.2rem;
   }
@@ -607,9 +692,14 @@ p {
     height: 100%;
     display: block;
     content: '';
-    background: linear-gradient(
+    /* background: linear-gradient(
       to bottom,
       rgba(23, 26, 28, 1) 50%,
+      rgba(255, 255, 255, 0) 50%
+    ); */
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 1) 50%,
       rgba(255, 255, 255, 0) 50%
     );
     background-position: 0 -40px;
