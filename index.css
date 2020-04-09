@@ -21,10 +21,10 @@
 }
 
 * {
-  font-family: 'helvetica-neue', "Helvetica Neue", sans-serif;
+  font-family: 'helvetica-neue', 'Helvetica Neue', sans-serif;
   font-weight: 600;
   /* color: rgb(23, 26, 28); */
-  color:white
+  color: white;
 }
 
 html {
@@ -32,7 +32,7 @@ html {
   height: 100vh;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
-  background: #1A191B; 
+  background: #1a191b;
 }
 
 body {
@@ -40,7 +40,7 @@ body {
 }
 
 .container {
-  background:  #1A191B;
+  background: #1a191b;
   /* background-color: rgb(23, 26, 28); */
   /* background: #fad4b3; */
   height: 100%;
@@ -73,32 +73,32 @@ body {
   height: 2px;
   /* background-color: rgb(23, 26, 28); */
   background: white;
-  display:none;
+  display: none;
 }
 
 .header .typo {
   width: 35%;
   text-align: right;
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
 .typo .small-line {
-  width:4rem;
+  width: 4rem;
   /* border-top:1px solid black; */
-  border-top:1px solid white;
+  border-top: 1px solid white;
 }
 
 .typo .small-line.bottom {
   /* border-bottom:1px solid black; */
-  border-bottom:1px solid white;
-  border-top:0;
-  transform: translateY(-50%)
+  border-bottom: 1px solid white;
+  border-top: 0;
+  transform: translateY(-50%);
 }
 
 .typo {
-  display:flex;
+  display: flex;
 }
 /* .header .line::before {
   content: '';
@@ -138,16 +138,26 @@ body {
   ); */
   background-image: linear-gradient(
     to bottom,
-    #1A191B 0%,
-    #1A191B00 20%,
-    #1A191B00 80%,
-    #1A191B 100%
+    #1a191b 0%,
+    #1a191b00 20%,
+    #1a191b00 80%,
+    #1a191b 100%
   );
   z-index: 25;
 }
 
+.body-container {
+  height: 100vh;
+  overflow: scroll;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  scroll-snap-type: y mandatory;
+}
+
 .section {
   background-color: transparent;
+  scroll-snap-align: start;
   position: static;
   min-height: 100vh;
   display: flex;
@@ -161,8 +171,8 @@ body {
   flex-direction: column;
   text-align: left;
   width: 65%;
-  justify-content: left;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 
 .three {
@@ -181,21 +191,20 @@ body {
   height: 100vh;
   z-index: 20;
   /* background-color: rgb(23, 26, 17); */
-  background-color: #1A191B;
+  background-color: #1a191b;
 }
 
 .icon {
-  width:25px;
-  height:25px;
+  width: 25px;
+  height: 25px;
   transform: translateY(-25%);
   filter: invert(100%);
 }
 
 .mail-icon {
-  width:20px;
-  height:15px;
+  width: 20px;
+  height: 15px;
   filter: invert(100%);
-
 }
 
 /************/
@@ -272,7 +281,7 @@ h1 {
   text-transform: uppercase;
   margin: 0;
   z-index: 0;
-  font-family: 'helvetica-neue-bold','Helvetica Neue', sans-serif;
+  font-family: 'helvetica-neue-bold', 'Helvetica Neue', sans-serif;
 }
 
 h3 {
@@ -305,7 +314,7 @@ p {
 
 .big-link-base {
   font-size: 4vw;
-  margin-top:-11px;
+  margin-top: -11px;
 }
 
 .after::after,
@@ -333,21 +342,18 @@ p {
   background: transparent;
 }
 
-
-
 @media screen and (max-width: 950px) {
   .after:hover .after::after {
     transition: width 0.8s;
     width: 0;
     /* background: rgb(23, 26, 17); */
-    background: #1A191B; 
+    background: #1a191b;
   }
   .after:hover .after::before {
     transition: width 0.8s 0.3s;
     width: 0;
     /* background: rgb(23, 26, 17); */
-    background: #1A191B; 
-
+    background: #1a191b;
   }
 }
 
@@ -593,7 +599,7 @@ p {
 
   h3 {
     font-size: 3vw;
-    line-height:3vw;
+    line-height: 3vw;
     margin: 0;
     z-index: 30;
     letter-spacing: 0.02rem;
@@ -608,7 +614,7 @@ p {
   }
 
   .small-line.bottom {
-    display:none
+    display: none;
   }
 
   p {
@@ -622,24 +628,23 @@ p {
   .scroll-strong .scroll-label {
     font-size: 2.5vw;
   }
- 
+
   .big-link,
   .big-link-base {
     font-size: 5vw;
   }
 
   .icon {
-    width:20px;
-    height:20px;
+    width: 20px;
+    height: 20px;
     transform: translateY(-25%);
     filter: invert(100%);
   }
-  
+
   .mail-icon {
-    width:15px;
-    height:10px;
+    width: 15px;
+    height: 10px;
     filter: invert(100%);
-  
   }
 
   /*

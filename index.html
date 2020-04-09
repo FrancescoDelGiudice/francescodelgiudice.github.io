@@ -7,14 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
   <link href="https://fonts.googleapis.com/css?family=Varela&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script type="text/javascript">
-    window.onscroll = function (ev) {
-      if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+    document.addEventListener('scroll', function (event) {
+      if($('#three').offset().top <= 30) {
         document.getElementById('scroll').style.opacity = '0'
       } else {
         document.getElementById('scroll').style.opacity = '1'
       }
-    }
+    }, true)
   </script>
 </head>
 
@@ -50,36 +51,38 @@
           <img src='mail.png' class='mail-icon' alt='Mail logo' /></a>
       </div>
     </div>
-    <div class="section one">
-      <h1>
-        Web <br />
-        Developer
-      </h1>
-    </div>
-    <div class="section two">
-      <p>
-        I'm a web developer specialized in Front End, with a passion for
-        UX design.
-      </p>
-
-      <p>
-        I've worked mainly with React, HTML and CSS, developing dynamic dashboards to display constantly updating data.
-      </p>
-
-      <p>
-        I've also studied and used PHP, MySQL, Ionic, Java and more.
-      </p>
-      <p>
-        My knowledge and skills also include web accessibility, web usability, agile methods
-        and quality control.
-      </p>
-    </div>
-    <div class="section three" id="three">
-      <div class="big-link-parent">
-        <a href="mailto:fra.delgiu16@gmail.com" class="big-link">fra.delgiu16@gmail.com</a>
-        <span class="big-link-base">fra.delgiu16@gmail.com</span>
+    <div class='body-container'>
+      <div class="section one">
+        <h1>
+          Web <br />
+          Developer
+        </h1>
       </div>
-      <div class="cover"></div>
+      <div class="section two">
+        <p>
+          I'm a web developer specialized in Front End, with a passion for
+          UX design.
+        </p>
+
+        <p>
+          I've worked mainly with React, HTML and CSS, developing dynamic dashboards to display constantly updating data.
+        </p>
+
+        <p>
+          I've also studied and used PHP, MySQL, Ionic, Java and more.
+        </p>
+        <p>
+          My knowledge and skills also include web accessibility, web usability, agile methods
+          and quality control.
+        </p>
+      </div>
+      <div class="section three" id="three">
+        <div class="big-link-parent">
+          <a href="mailto:fra.delgiu16@gmail.com" class="big-link">fra.delgiu16@gmail.com</a>
+          <span class="big-link-base">fra.delgiu16@gmail.com</span>
+        </div>
+        <div class="cover"></div>
+      </div>
     </div>
   </div>
 </body>
