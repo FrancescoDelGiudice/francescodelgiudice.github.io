@@ -152,12 +152,10 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  scroll-snap-type: y mandatory;
 }
 
 .section {
   background-color: transparent;
-  scroll-snap-align: start;
   position: static;
   min-height: 100vh;
   display: flex;
