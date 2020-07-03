@@ -178,7 +178,7 @@ body {
   height: 100%;
   min-height: 26vw;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
 }
 
