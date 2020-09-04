@@ -397,3 +397,36 @@ header.scrolled.light h3 {
 .card {
   transition: all .5s ease;
 }
+.underline-hover {
+  position:relative;
+}
+
+.underline-hover:after {
+  content:"";
+  width:0;
+  height:1px;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background: var(--gray-900);
+  transition:width .3s ease;
+}
+
+.underline-hover:hover:after,
+.underline-hover.active:after {
+  width:100%;
+}
+
+.multiline-hover {
+  width: calc(100%);
+  background-image: linear-gradient(transparent calc(100% - 1px), var(--gray-900) 1px);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size .5s;
+}
+.card-anchor .multiline-hover {
+  background-image: linear-gradient(transparent calc(100% - 1px), white 1px);
+}
+.card:hover .multiline-hover {
+  background-size: 100% 100%;
+}
