@@ -1,7 +1,7 @@
 var FRAMERATE_FPS= 30;            //in FPS
 var CONNECTION_DISTANCE = 150;    //in px
-var MAX_NODES = 100;                //just a number!
-var MAX_CONNECTIONS = 1;                //just a number!
+var MAX_NODES = 50;                //just a number!
+var MAX_CONNECTIONS = 5;                //just a number!
 
 
 //animation helper
