@@ -9,7 +9,7 @@
   <!--  FONT  -->
   <link
   href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Serif+JP:wght@400;700;900&display=swap"
-  rel="stylesheet"> 
+  rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet" />
   <!-- END FONT  -->
 
@@ -30,7 +30,7 @@
 <body class="antialiased overflow-x-hidden text-gray-700 font-sans bg-white">
 
   <!-- particles js -->
-  <canvas id="theCanvas"></canvas>
+  <canvas id="theCanvas" class="opacity-50"></canvas>
 
   <header class="dark top-page absolute sm:fixed top-0 left-0 w-full px-6 sm:px-12 py-6 sm:py-8 z-50">
     <div class="flex flex-row justify-between items-center">
@@ -52,7 +52,7 @@
     <img class="visual static md:absolute mt-16 mr-6 mb-6 z-0 floating" src="dashboard.svg" alt="dashboard image"/>
   </section>
     <!-- SKILLS -->
-    <section class="page-section relative pt-24 pb-32 sm:py-56 xl:pb-64 overflow-hidden bg-gray-900 text-white" id="skills">
+    <section class="page-section relative pt-24 pb-40 sm:py-56 xl:pb-64 overflow-hidden bg-gray-900 text-white" id="skills">
         <img class="visual absolute" src="skills-img.svg" alt="" />
 
         <div class="container mx-auto">
@@ -77,7 +77,7 @@
             </div>
         </div>
     </section>
-    <section class="page-section relative pt-24 pb-32 sm:py-56 xl:pb-64  overflow-hidden bg-gray-100 light-bg text-gray-900" id="about">
+    <section class="page-section relative pt-24 pb-40 sm:py-56 xl:pb-64  overflow-hidden bg-gray-100 light-bg text-gray-900" id="about">
     <img class="visual absolute" src="about-img.svg" alt="" />
 
     <div class="container mx-auto">
@@ -92,9 +92,8 @@
           </div>
           <div class="w-full lg:w-1/2 pl-0 lg:pl-12 pb-16 md:pb-0" data-aos="fade-up" data-aos-delay="200"
               data-aos-duration="500" data-aos-easing="ease">
-              <p class="mt-10 sm:mt-16 text-xl font-medium text-gray-900 leading-relaxed">Sin da piccolo interessato alla <span class="text-red-600 font-sans">musica</span> e alla <span class="text-red-600 font-sans">lettura</span>, hobby per cui mi ritaglio del tempo ancora oggi.
-              <br/>
-              Da diverso tempo <span class="text-red-600 font-sans">scrivo</span>, principalmente poesie, riuscendo ad ottenere diverse pubblicazioni in riviste di scrittura, ma anche testi per le due band che da qualche anno porto avanti.
+              <p class="mt-10 sm:mt-16 text-xl font-medium text-gray-900 leading-relaxed">Sin da piccolo interessato alla <span class="text-red-600 font-sans">musica</span> e alla <span class="text-red-600 font-sans">lettura</span>, hobby che porto avanti ancora oggi. <br/>
+              Da diverso tempo <span class="text-red-600 font-sans">scrivo</span>, sia testi per le mie band che  poesie, che hanno trovato la luce in diverse pubblicazioni e nella vincita di un concorso per scrittori.
               </p>
               <!-- <a class="anchor secondary-btn on-dark inline-block mt-8 py-3 px-6 rounded border border-white text-xs tracking-widest uppercase font-semibold"
                   href="#contact">scopri di più</a> -->
@@ -107,7 +106,7 @@
         <h1 class="px-6 font-serif font-black text-4xl sm:text-6xl pb-10 sm:pb-0 text-gray-900 leading-tight text-center">Vuoi contattarmi?</h1>
     </div>
 
-    <div class="mx-auto w-1/2 lg:w-1/4">
+    <div class="mx-auto w-1/2 pb-20 lg:pb-0 lg:w-1/4">
       <div class="card mb-8 xl:mt-16 cursor-pointer floating">
         <div class="flipper">
           <div class="flipper-card">
@@ -137,7 +136,7 @@
         </a>
       </p>
   </div>
-  </section>  
+  </section>
 
   <script src="particles.js"></script>
   <script src="general.js"></script>
