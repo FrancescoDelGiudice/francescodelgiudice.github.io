@@ -138,6 +138,10 @@ body > section {
     HEADER
 ------------------------------------------------*/
 
+header {
+  transition: background-color 0.3s;
+}
+
 header h3 {
   color: #1a191b;
   margin: 0;
